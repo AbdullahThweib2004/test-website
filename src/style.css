@@ -87,14 +87,14 @@ body {
 }
 
 .service-card p {
-  color: #666;
+  color: #ff0000;
   line-height: 1.6;
 }
 
 /* ===== FOOTER ===== */
 .footer {
   background-color: #1a1a2e;
-  color: #aaa;
+  color: #ff0000;
   text-align: center;
   padding: 20px;
   font-size: 14px;
