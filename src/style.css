@@ -21,14 +21,14 @@ body {
 
 .hero-title {
   font-size: 48px;
-  color: #ffffff;
+  color: #ff0000;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
 .hero-subtitle {
   font-size: 18px;
-  color: #aaaaaa;
+  color: #ff0000;
   margin-bottom: 40px;
 }
 
@@ -62,7 +62,7 @@ body {
 .services h2 {
   font-size: 32px;
   margin-bottom: 40px;
-  color: #1a1a2e;
+  color: #ff0000;
 }
 
 .services-grid {
@@ -83,18 +83,18 @@ body {
 .service-card h3 {
   font-size: 20px;
   margin-bottom: 10px;
-  color: #1a1a2e;
+  color: #ff0000;
 }
 
 .service-card p {
-  color: #666;
+  color: #ff0000;
   line-height: 1.6;
 }
 
 /* ===== FOOTER ===== */
 .footer {
   background-color: #1a1a2e;
-  color: #aaa;
+  color: #ff0000;
   text-align: center;
   padding: 20px;
   font-size: 14px;
