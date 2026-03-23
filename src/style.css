@@ -1,5 +1,3 @@
-/* style.css — TechCorp Website */
-
 * {
   margin: 0;
   padding: 0;
@@ -87,7 +85,7 @@ body {
 }
 
 .service-card p {
-  color: #666;
+  color: #ff0000;
   line-height: 1.6;
 }
 
