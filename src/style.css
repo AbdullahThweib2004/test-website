@@ -9,6 +9,9 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f5f5f5;
+}
+
+* {
   color: #ff0000;
 }
 
@@ -87,7 +90,6 @@ body {
 }
 
 .service-card p {
-  color: #666;
   line-height: 1.6;
 }
 
