@@ -2,15 +2,13 @@
 
 document.getElementById('root').innerHTML = `
   <div>
- 
-
+    
     <section class="hero">
       <h1 class="hero-title">hello Welcome to TechCorp</h1>
       <p class="hero-subtitle">hello Building the future, one line at a time.</p>
       <button class="subscribe-btn" onclick="handleSubscribe()">Get Started</button>
     </section>
- 
-
+    
     <section class="services">
       <h2>hello Our Services</h2>
       <div class="services-grid">
@@ -28,15 +26,16 @@ document.getElementById('root').innerHTML = `
         </div>
       </div>
     </section>
- 
-
+    
     <footer class="footer">
       <p>hello 2024 TechCorp. All rights reserved.</p>
     </footer>
- 
   </div>
 `;
 
 function handleSubscribe() {
-  alert('Thanks! We will be in touch soon.');
+  fetch('/api/signin', { method: 'POST' })
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.error('Error:', error));
 }
